@@ -62,10 +62,5 @@ Summary = input('Summary: ')
 Exon_count = input('Exon count: ')
 Lineage = input('Lineage: ')
 Coding_sequence = input('Coding sequence: ')
-
-
-# In[19]:
-
-
-print('The new record is constituted of:', "gene_ID:", gene_ID, ',' , "Official Symbol:", Official_Symbol, ',' , "Official Full Name:", Official_Full_Name, ',' , "Isprotein coding or not:", Isprotein_coding_or_not, ',' , "Summary:", Summary, ',' , "Exon count:", Exon_count, ',' , "Lineage:", Lineage, ',' , "Coding sequence:", Coding_sequence)
-
+Myorder = "The new record is constituted of: gene_ID: {}, Official Symbol: {}, Official Full Name: {}, Isprotein coding or not: {}, Summary: {}, Exon count: {}, Lineage: {}, Coding sequence: {}"
+print(Myorder.format(gene_ID, Official_Symbol, Official_Full_Name, Isprotein_coding_or_not, Summary, Exon_count, Lineage, Coding_sequence))
